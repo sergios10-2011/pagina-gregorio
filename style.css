@@ -31,7 +31,7 @@ body{
 
 .produto{
     font-family: 'sarala';
-    color: aliceblue;
+    color: rgb(227, 221, 237);
     font-weight: 400;
     font-size: 20px;
 }
@@ -124,3 +124,23 @@ button:hover{
     height: 68px;
 margin: 0 auto;
 }
+@media screen and (max-width:1029px){
+    
+   .navegacao{
+    display: none;
+   }      
+
+   .sessao{
+    flex-direction: column-reverse;  
+
+   }
+   .tec{
+    height: 70%;
+   }
+.prof{
+    font-size: 25px;
+}
+.sergio{
+    gap: 20px;
+}
+    }
